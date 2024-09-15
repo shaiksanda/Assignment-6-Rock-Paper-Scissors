@@ -1,0 +1,33 @@
+.rules-image {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.rules-image:hover {
+  transform: scale(1.02);
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+.popup-content {
+  border-radius: 10px;
+}
+.close-button {
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .rules-image {
+    width: 350px;
+  }
+}

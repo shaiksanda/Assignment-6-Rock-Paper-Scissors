@@ -1,0 +1,52 @@
+.header-container {
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.header-container:hover {
+  transform: scale(1.02);
+  border: 3px solid violet;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  margin: 5px;
+  color: white;
+  font-size: 26px;
+}
+
+.score-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  cursor: pointer;
+}
+
+.score-card:hover {
+  transform: scale(1.02);
+  background-color: dodgerblue;
+}
+.score {
+  margin: 0px;
+  color: #223a5f;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 100%;
+  }
+  .heading {
+    font-size: 28px;
+  }
+}
